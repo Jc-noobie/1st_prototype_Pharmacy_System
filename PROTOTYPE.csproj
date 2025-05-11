@@ -58,12 +58,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BAGONGFORM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BAGONGFORM.Designer.cs">
-      <DependentUpon>BAGONGFORM.cs</DependentUpon>
-    </Compile>
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
