@@ -138,6 +138,9 @@
     <EmbeddedResource Include="showMed.resx">
       <DependentUpon>showMed.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestingForm.resx">
+      <DependentUpon>TestingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
