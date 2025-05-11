@@ -76,12 +76,6 @@
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
-    <Compile Include="newTestingForm2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="newTestingForm2.Designer.cs">
-      <DependentUpon>newTestingForm2.cs</DependentUpon>
-    </Compile>
     <Compile Include="profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +102,6 @@
     <Compile Include="showMed.Designer.cs">
       <DependentUpon>showMed.cs</DependentUpon>
     </Compile>
-    <Compile Include="TestingForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TestingForm.Designer.cs">
-      <DependentUpon>TestingForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,9 +110,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="newTestingForm2.resx">
-      <DependentUpon>newTestingForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
@@ -146,9 +131,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="showMed.resx">
       <DependentUpon>showMed.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TestingForm.resx">
-      <DependentUpon>TestingForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
