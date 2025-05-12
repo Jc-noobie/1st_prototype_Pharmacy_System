@@ -33,12 +33,12 @@ namespace PROTOTYPE
         {
             MySqlDataAdapter mda = new MySqlDataAdapter();
             mda.SelectCommand = new MySqlCommand(cmdText, conn);
+
             DataTable dataTable = new DataTable();
             mda.Fill(dataTable);
 
             BindingSource bind = new BindingSource();
             bind.DataSource = dataTable;
-
 
             Med_datagrid.DataSource = bind;
         }
